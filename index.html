@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anotações Bootcamp DIO</title>
+  </head>
+  <body>
+    <h1>Anotações do Bootcamp da DIO</h1>
+
+    <section>
+      <h3>SOBRE IDE:</h3>
+      <ul>
+        <li>
+          <p>
+            IDEs são ambientes onde o programador irá desenvolver o código.<br />
+            <b>Exemplos:</b> Visual Studio Code (VSCode), IDLE (IDE de Python),
+            PyCharm, etc.
+          </p>
+        </li>
+        <li>
+          <p>
+            Para verificar a versão do Python que está usando, se utiliza o
+            comando python -V no terminal.
+          </p>
+        </li>
+        <li>
+          <p>
+            Você pode instalar as linguagens de programação na sua máquina,
+            direto do site delas
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>O QUE É PROGRAMAR?</h3>
+      <ul>
+        <li>
+          <p>
+            Consiste basicamente informar o computador de forma de Linguagem de
+            Programação, uma série de passos a ser seguidos de forma ordenada
+            para o funcionamento de determinada coisa.<br />
+            <b>Exemplo:</b> Uma receita de bolo precisa ser seguida da forma que
+            está escrita, primeiro colocar os ingredientes em um lugar,
+            misturar, bater, colocar na forma e assar. Basicamente, o
+            programação você dá comandos para a máquina como se fosse uma
+            receita de bolo.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>UM POUCO SOBRE O PYTHON</h3>
+      <ul>
+        <li><p>Lingugem extremamente versátil,</p></li>
+        <li>
+          <p>Tipagem dinâmica e forte<br /></p>
+          <b>Tipagem Dinâmica:</b> O Python é capas de definir a tipagem de uma variável sem precissar-mos especificar.<br />
+          <b>Tipagem Forte:</b> significa que, mesmo que a linguagem permita
+          mudar o tipo de uma variável, ela não deixa você fazer operações
+          incompatíveis com o tipo. Por exemplo, em Python, você não consegue
+          somar uma string com um número sem converter explicitamente o tipo.<br />
+          <b>Em resumo:</b> tipagem dinâmica permite mudar o tipo de uma
+          variável durante o programa, e tipagem forte impede operações erradas
+          entre tipos diferentes sem conversão.</p>
+        </li>
+        <li>
+          <p>Multiplataforma (pode ser usada em diversas sistemas, como Windows, Linux, MacOS) e Multiparadigma
+          (suporta diversos paradigmas),</p>
+        </li>
+        <li><p></p>Comunidade grande e bem ativa,</p></li>
+        <li><p></p>Curva de aprendizado baixa.</p></li>
+        <li><p>Não é boa para app mobile</p></li>
+      </ul>
+    </section>
+
+    <section>
+        <h3>TIPOS DE DADOS</h3>
+
+        <p><b>O Que São Tipos?</b></p>
+        <p>Tipos de dados são como "categorias" ou "tipos" para organizar as informações que você usa no seu programa.<br>
+             Cada tipo de dado define que tipo de valor aquela informação pode ter.</p>
+
+        <p>Alguns tipos de dados mais comuns:</p>
+
+    <ul>
+    <li><b>Número inteiro (int):</b> São números sem decimais, como 1, 20, -5.</li>
+
+    <li><b>Número com decimal (float):</b> São números que têm uma parte decimal, como 3.14, -0.5, 100.0.</li>
+
+    <li><b>Texto (str):</b> São palavras ou frases, sempre entre aspas, como "olá", "programação", "123".</li>
+
+    <li><b>Booleano (bool):</b> Só pode ser verdadeiro (True) ou falso (False). Usado para decisões, como em "Está chovendo?" (sim ou não).</li>
+    </ul>
+
+    Esses tipos ajudam o computador a saber como tratar as informações.<br> 
+    <b>Por exemplo:</b> Se você tentar somar um número com uma palavra, o computador vai ter dificuldades, porque são tipos diferentes.</p>
+    </section>
+
+    <section>
+      <h3>MODO INTERATIVO</h3>
+      <ul>
+        <li>O interpretador do Python pode ser acessado para o programador escrever um código e mostrar o resultado na hora.</li>
+        <li>Para iniciar o modo interativo, basta ir no terminal e digitar apenas "python" ou executando o script com a flag -i, como (python-i app.py), colocando o arquivo ,py no final</li>
+        <li>Para sair do modo interativo, aperte (Ctrl+z)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>CONSTANTES E VARIÁVEIS</h3>
+      <b><p>VARIÁVEIS:</b>
+        <li>São basicamente valores que podem sofrer alterações no decorrer da execução do programa.<br>
+         São variáveis, por nascerem com um valor e não necessariamente continuar com ele até o final da execução do programa.</li>
+        <li>Pode declarar várias variáveis de uma vez, basta apenas colocar ",".<br><b>Exemplo:</b> nome, idade = "Leandro", 21.</p></li>
+        
+      <p><b>CONSTANTES:</b>
+      <li>Assim como as <b>variáveis</b>, as constantes também são utilizadas para armazenar valores, a diferença é que a constante mantém o valor até o final da execução do programa.</li></p>
+      
+      <b>NO PYTHON NÃO TEMOS CONSTANTES:</b><br>
+      Na linguagem Python, não temos uma palavra para <b>constante</b> como em outras linguagens, como no <b>Java</b> e <b>C</b> que utiliza-se de <b>final</b> e <b>const</b> para declarar uma constante<br>
+      Em Python, utilizamos a convenção que diz ao programador que uma variável é uma constante. Para fazer isso, você precisa criar uma variável totalmente em letras maiúsculas. 
+    </section>
+
+    <section>
+      <h3>BOAS PRÁTICAS</h3>
+      <ul>
+        <li>O padrão de nomes de variáveis e constantes deve ser em <b>snake case</b> (substitui espaços por underlines "_")<br>
+        <b>Exemplo:</b> salario_minimo = 1300.00,</li>
+        <li>Escolher nomes sugestivos,</li>
+        <li>Nome de constantes todo em maiúsulo.</li>
+      </ul>
+    </section>
+  </body>
+</html>
